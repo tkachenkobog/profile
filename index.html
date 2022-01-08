@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js"></script>
+</head>
+<body class='page'>
+
+
+
+<nav>
+    <ul class="navigation">
+        <a href="#eduBlog"><li onclick="showMain()">Educational blog</li></a>
+        <a href="#proj"><li onclick="showMain()">Projects</li></a>
+        <a href="#contact"><li onclick="showContact()">Contacts</li></a>
+        <a href="#cont"><li onclick="showMain()">Home</li></a>
+        
+  </ul>
+</nav>
+
+
+<div class="cont" id='cont'>
+    <div class="aboutme">
+    <h1>Hello I'm Bohdan Tkachenko <br> I'm front-end developer based in Lviv, Ukrine.</h1>
+    <h2>In the past I was a engineer-constructor, worked as team leader of a bounty hunter team (in a crypt), organized DnB parties, worked like autstaff for an US laboratory, and now I am studying the front end and looking for a job :)</h2>
+    </div>
+    <img src="img/mypic.jpg">
+</div>
+<div id='skill'>
+    <div class="skills" >
+        <h1> My skills</h1>
+    </div>
+    <div class="skillCont">
+  
+        <div class="skillbox">
+            <img src="img/command-line.png">
+        </div>
+        <div class="skillbox">
+            <img src="img/free-icon-css-3-778471.png">
+        </div>
+        <div class="skillbox">
+            <img src="img/free-icon-html-5-888859.png">
+         </div>
+        <div class="skillbox">
+             <img src="img/github.png">
+         </div>
+             <div class="skillbox">
+        <img src="img/js.png">
+         </div>
+         <div class="skillbox">
+              <img src="img/react.png">
+          </div>
+         <div class="skillbox">
+              <img src="img/ux.png">
+          </div>
+          <div class="skillbox">
+            <img src="img/adb-photoshop_icon-icons.com_50960.png">
+        </div>
+        <div class="skillbox">
+          <img src="img/arduino_macos_bigsur_icon_190380.png">
+      </div>
+
+    </div>
+</div>    
+<div id='proj'>
+    <div class="myProj">
+        <h1>My Projects</h1>
+    </div>
+    <div class="projCont">
+        <div class="projBox">
+          <a href="https://tkachenkobog.github.io/cookies.github.io/">
+            <img src="img/predictor.png">
+            </a>
+            <h3>Cookies predictions</h3>
+         </div>
+        <div class="projBox">
+          <a href="https://tkachenkobog.github.io/snake/">
+            <img src="img/snakee.png">
+            <a/>
+            <h3 onclick="snake()">Game snake on canvas</h3>
+         </div>
+         <a href="https://tkachenkobog.github.io/teashop.github.io/">
+         <div class="projBox">
+              <img src="img/teashop.png">
+         </a>
+              <h3>Flex desing for tea shop</h3>
+         </div>
+         <div class="projBox">
+           <a href="https://tkachenkobog.github.io/letters/">
+             <img src="img/words.png"></a>
+             <h3>letters game on canvas</h3>
+          </div>
+          <a href="https://tkachenkobog.github.io/styleguide.github.io/">
+          <div class="projBox">
+            <img src="img/styleguide.png">
+          </a>
+            <h3>Style Guide</h3>
+         </div>
+         <a href="https://tkachenkobog.github.io/first-react-app/">
+         <div class="projBox">
+          <img src="img/msr.png">
+        </a>
+          <h3>React Movie searcher</h3>
+       </div>
+        </div>
+        
+</div>        
+<div class="form" id="contactForm">
+<form action="" method="post" >
+    <table>
+        <tbody>
+          <tr>
+            <td></td>
+            <td>
+              <input type="name" name="name" placeholder="Name">
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="email" name="email" placeholder="Email">
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <textarea rows="10" cols="30" name="message" placeholder="Your message..."></textarea>
+
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="submit" value="Send">
+            </td>
+          </tr>
+          <tr><img src="img/linkedin.png"></tr>
+          <tr><img src="img/facebook.png"></tr>
+          <tr><a href="https://github.com/tkachenkobog"  target="_blank"><img src="img/github.png"></a></tr>
+        </tbody>
+      </table>
+  </form>
+  </div>
+  <div class="blogHead" id="blogHead">
+    <h1>Educational Blog</h1>
+</div>
+ <div class="blog" id="eduBlog"> 
+      <div class="blogPost">
+        <h3>Working with animations, events</h3>
+        <h5>8/11/2021</h5>
+      </div>
+      <div class="blogPost">
+        <h3>End Jquery, interactive programming</h3>
+        <h5>7/11/2021</h5>
+      </div>
+      <div class="blogPost">
+        <h3>End DoM, start Jquery</h3>
+        <h5>6/11/2021</h5>
+      </div>
+       <div class="blogPost">
+        <h3>Rewriting gallows game on fucntions </h3>
+        <h5>5/11/2021</h5>
+      </div>
+      <div class="blogPost">
+        <h3>Writing gallows game, experementing with Math method, comparison of arrays </h3>
+        <h5>4/11/2021</h5>
+      </div>
+      <div class="blogPost">
+        <h3>Сonditions and cycles and all exercises </h3>
+        <h5>3/11/2021</h5>
+      </div>
+      <div class="blogPost">
+        <h3>Experementing with objects, basic html </h3>
+        <h5>2/11/2021</h5>
+      </div>
+      <div class="blogPost">
+        <h3>I started with book "JS for kids": data dtructure, type of date, array's, variable's </h3>
+        <h5>1/11/2021</h5>
+      </div>
+     
+ </div>
+
+
+
+ <div id="icoStyle" class="icoStyle" onclick="dayNight()">
+   <img src="img/day-and-night.png">
+ </div>
+ 
+</div>
+
+</body>
+
+</html>
